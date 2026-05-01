@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>中國舞蹈大觀園｜黑板粉筆教學駕駛艙</title>
+  <link rel="stylesheet" href="./styles.css?v=20260501-drive-video" />
+</head>
+<body>
+  <main class="app-shell" data-mode="teacher">
+    <header class="topbar">
+      <section class="lesson-id">
+        <span class="small-mark">第10課</span>
+        <h1>中國舞蹈大觀園</h1>
+        <p>黑板粉筆風格教學駕駛艙｜NotebookLM 自學素材、互動視覺化、形成性評量與資訊圖表整合</p>
+        <p class="source-line">教材來源：03_114國中表演藝術2下備課_第10課_中國舞蹈大觀園.pdf</p>
+      </section>
+    </header>
+
+    <section class="dashboard-grid">
+      <aside class="focus-rail" aria-label="教學重點">
+        <button class="focus-tab active" data-focus="origin"><span>01</span>起源線索</button>
+        <button class="focus-tab" data-focus="types"><span>02</span>民俗／古典</button>
+        <button class="focus-tab" data-focus="folk"><span>03</span>民俗舞</button>
+        <button class="focus-tab" data-focus="masters"><span>04</span>舞林高手</button>
+        <button class="focus-tab" data-focus="basics"><span>05</span>基本功</button>
+        <button class="focus-tab" data-focus="postures"><span>06</span>舞姿圖鑑</button>
+      </aside>
+
+      <section class="stage">
+        <nav class="stage-nav" aria-label="素材類型">
+          <button class="view-btn active" data-view="brief">NotebookLM 簡動輪番</button>
+          <button class="view-btn" data-view="interactive">互動視覺化＋形成性評量</button>
+          <button class="view-btn" data-view="infographic">資訊圖表</button>
+        </nav>
+
+        <article class="chalk-stage" id="focusStage" aria-live="polite"></article>
+      </section>
+
+      <aside class="lesson-board inline-board">
+        <section class="board-card compact">
+          <h2>本節課進度</h2>
+          <div class="progress-ring" aria-label="進度">
+            <span id="progressPercent">17%</span>
+          </div>
+          <p id="progressText">目前重點：起源線索</p>
+        </section>
+        <section class="board-card">
+          <h2>教師提示</h2>
+          <p class="teacher-only">切換重點時，可先播放左側輪播，再用互動題快速確認學生是否抓到關鍵差異。</p>
+          <p class="student-only">先看輪播重點，再完成互動題。答錯沒關係，請回到圖表找證據。</p>
+        </section>
+        <section class="board-card">
+          <h2>素材入口</h2>
+          <div class="video-placeholder">
+            <strong>教學影片：</strong>
+            <span>影片已改放 Google 雲端硬碟；收到個別影片連結後可再逐項更新。</span>
+          </div>
+          <div class="youtube-placeholder">
+            <strong>Google 雲端硬碟影片區</strong>
+            <span>影片放 Google 雲端硬碟，不把 MP4 放進 GitHub Pages。</span>
+            <select class="youtube-select" id="youtubeSelectInline">
+              <option value="driveFolder">影片資料夾總覽</option>
+              <option value="yunshou">雲手</option>
+              <option value="fenghuolun">風火輪</option>
+              <option value="shougongyaogong">手功腰功</option>
+              <option value="shuangfeiyan">雙飛燕</option>
+              <option value="shanbang">山膀</option>
+              <option value="yubu">禹步</option>
+              <option value="tuigongtantiaogong">腿功彈跳功</option>
+            </select>
+            <p class="youtube-current">目前雲端硬碟連結：<a data-youtube-current href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing</a></p>
+            <a class="current-youtube-open" data-current-open="youtubeSelectInline" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟目前雲端硬碟連結</a>
+            <a class="youtube-open-link" data-youtube-open href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟雲端硬碟資料夾</a>
+            <div class="youtube-links">
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">影片資料夾總覽｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">雲手｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">風火輪｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">手功腰功｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">雙飛燕｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">山膀｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">禹步｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">腿功彈跳功｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+            </div>
+          </div>
+        </section>
+      </aside>
+    </section>
+
+    <aside class="floating-tools" aria-label="右側教學工具面板">
+      <button class="tool-toggle" id="toolToggle" aria-expanded="true">右側面板</button>
+      <div class="tool-panel" id="toolPanel">
+        <section class="tool-section">
+          <h2>素材入口</h2>
+          <div class="video-placeholder">
+            <strong>教學影片：</strong>
+            <span>影片已改放 Google 雲端硬碟；收到個別影片連結後可再逐項更新。</span>
+          </div>
+          <div class="youtube-placeholder">
+            <strong>Google 雲端硬碟影片區</strong>
+            <span>影片放 Google 雲端硬碟，不把 MP4 放進 GitHub Pages。</span>
+            <select class="youtube-select" id="youtubeSelect">
+              <option value="driveFolder">影片資料夾總覽</option>
+              <option value="yunshou">雲手</option>
+              <option value="fenghuolun">風火輪</option>
+              <option value="shougongyaogong">手功腰功</option>
+              <option value="shuangfeiyan">雙飛燕</option>
+              <option value="shanbang">山膀</option>
+              <option value="yubu">禹步</option>
+              <option value="tuigongtantiaogong">腿功彈跳功</option>
+            </select>
+            <p class="youtube-current">目前雲端硬碟連結：<a data-youtube-current href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing</a></p>
+            <a class="current-youtube-open" data-current-open="youtubeSelect" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟目前雲端硬碟連結</a>
+            <a class="youtube-open-link" data-youtube-open href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟雲端硬碟資料夾</a>
+            <div class="youtube-links">
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">影片資料夾總覽｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">雲手｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">風火輪｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">手功腰功｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">雙飛燕｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">山膀｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">禹步｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+              <div class="youtube-link-row"><a class="youtube-title-link" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">腿功彈跳功｜雲端硬碟</a><a class="youtube-open-button" href="https://drive.google.com/drive/folders/1n-pZY-BWSD3FNuIumpD2etovvBynq598?usp=sharing" target="_blank" rel="noopener noreferrer">開啟</a></div>
+            </div>
+          </div>
+        </section>
+        <section class="tool-section">
+          <h2>抽座號</h2>
+          <div class="seat-range" aria-label="學生座號範圍">
+            <label>起
+              <input id="seatStart" type="number" min="1" max="99" value="1" />
+            </label>
+            <label>迄
+              <input id="seatEnd" type="number" min="1" max="99" value="30" />
+            </label>
+          </div>
+          <div class="draw-row">
+            <button id="drawBtn">抽座號</button>
+            <button id="resetDraw">重抽池</button>
+          </div>
+          <p class="draw-result" id="drawResult">目前範圍：1-30</p>
+        </section>
+        <section class="tool-section">
+          <h2>計時器</h2>
+          <div class="timer-face" id="timerFace">03:00</div>
+          <div class="timer-row">
+            <button data-minutes="1">1分</button>
+            <button data-minutes="3">3分</button>
+            <button data-minutes="5">5分</button>
+          </div>
+          <div class="timer-row">
+            <button id="startTimer">開始</button>
+            <button id="pauseTimer">暫停</button>
+            <button id="resetTimer">重設</button>
+          </div>
+        </section>
+      </div>
+    </aside>
+
+    <section class="viewer-modal" id="assetViewer" hidden aria-modal="true" role="dialog" aria-label="素材檢視器">
+      <div class="viewer-card">
+        <header class="viewer-head">
+          <h2 id="viewerTitle">素材檢視</h2>
+          <div class="viewer-actions">
+            <button class="viewer-pen-toggle" id="penToggle" type="button">畫筆</button>
+            <button class="pen-color active" data-color="#f2efdc" style="--pen:#f2efdc" aria-label="白色粉筆"></button>
+            <button class="pen-color" data-color="#f5d260" style="--pen:#f5d260" aria-label="黃色粉筆"></button>
+            <button class="pen-color" data-color="#87c9d9" style="--pen:#87c9d9" aria-label="藍色粉筆"></button>
+            <button class="pen-color" data-color="#de745e" style="--pen:#de745e" aria-label="紅色粉筆"></button>
+            <button class="pen-clear" id="clearInk" type="button">清除</button>
+            <button id="viewerPrev" type="button" hidden>上一張</button>
+            <button id="viewerNext" type="button" hidden>下一張</button>
+            <button id="viewerClose" type="button">關閉</button>
+          </div>
+        </header>
+        <div class="viewer-body" id="viewerBody"></div>
+        <canvas id="inkCanvas" aria-hidden="true"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js?v=20260501-drive-video"></script>
+</body>
+</html>
+
